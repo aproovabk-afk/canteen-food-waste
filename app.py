@@ -183,4 +183,3 @@ def donate():
     return f"Alert sent to NGOs: {leftover} leftover meals available from {row[0]}. <a href='/'>Go back</a>"
 if __name__ == "__main__":
     app.run(debug=True)
-    
